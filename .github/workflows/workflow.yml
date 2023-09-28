@@ -29,4 +29,4 @@ jobs:
           ${{ runner.os }}-pnpm-store-
 
     - name: Install deps (with cache)
-      run: # install deps
+      run: pnpm i
